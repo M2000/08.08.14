@@ -1,0 +1,400 @@
+/*
+*
+*
+*
+*/
+/*include mixin for styling
+--------------------------------------------*/
+/*
+*
+*@file _mixin.scss
+* Mixins for properties
+*
+*/
+/*include setting for styling
+--------------------------------------------*/
+/*
+*
+* @file _setting.scss
+* Setting for styling page
+* - fonts
+* - colors
+* -
+*/
+/*include canvas for styling
+--------------------------------------------*/
+/*
+*
+*@file _canvas.scss
+* Canvas elements
+*
+*/
+#my_canvas {
+  height: 80px;
+  width: 80px; }
+
+/*include layout for styling
+--------------------------------------------*/
+/*
+*
+*
+*
+*@file _layout.scss
+* Markup page
+*
+*
+*/
+header {
+  height: 880px;
+  width: 1600px;
+  position: relative;
+  margin: 0 auto; }
+
+.container {
+  height: auto;
+  width: 1180px;
+  position: relative;
+  margin: 0 auto; }
+
+section {
+  height: auto;
+  width: 1600px;
+  position: relative;
+  margin: 0 auto; }
+
+footer {
+  height: 700px;
+  width: 1600px;
+  position: relative;
+  margin: 0 auto; }
+
+/*include responsive for styling
+--------------------------------------------*/
+/*
+*
+*
+*@file _responsive.scss
+* Responsive
+*
+*
+*/
+/*include element for styling
+--------------------------------------------*/
+/*
+*
+*@file _element.scss
+* header and footer elements
+*
+*/
+/*include section for styling
+--------------------------------------------*/
+/*
+*
+*@file _section.scss
+* Main scss file
+*
+*/
+header {
+  background-image: url("../img/header.jpg");
+  background-size: 100% 100%; }
+  header .container h1 {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 180px;
+    margin-bottom: 30px;
+    font-family: Lato-Lig;
+    font-size: 60px;
+    font-weight: lihgt; }
+  header .container p {
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    font-family: Lato-LigIta;
+    font-style: italic;
+    font-size: 17px; }
+  header .container .video_button {
+    height: 80px;
+    width: 80px;
+    position: relative;
+    margin: 0 auto;
+    border: 10px solid white;
+    border-radius: 50%;
+    margin-top: 60px; }
+  header .container a {
+    text-decoration: none; }
+    header .container a .get_started {
+      height: 53px;
+      width: 280px;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 240px;
+      color: white;
+      font-family: Lato-Bol;
+      font-size: 22px;
+      font-weight: bold;
+      padding-top: 17px;
+      text-align: center;
+      border-radius: 5px;
+      background-color: #7accc8; }
+
+#see_the_sky {
+  height: 755px;
+  background-image: url("../img/see_the_sky.jpg");
+  background-size: 100% 100%; }
+  #see_the_sky .container .shell {
+    width: 660px;
+    margin-top: 0px;
+    padding-top: 90px; }
+    #see_the_sky .container .shell h3 {
+      margin-top: 0px;
+      margin-bottom: 50px;
+      color: white;
+      font-family: Lato-Lig;
+      font-size: 55px;
+      font-weight: lihgt; }
+    #see_the_sky .container .shell p {
+      margin-top: 0px;
+      margin-bottom: 50px;
+      color: white;
+      font-family: Lato-Reg;
+      font-size: 16px; }
+    #see_the_sky .container .shell :last-child {
+      margin-bottom: 40px; }
+    #see_the_sky .container .shell a {
+      text-decoration: none; }
+      #see_the_sky .container .shell a .see_the_sky_button {
+        height: 43px;
+        width: 275px;
+        position: relative;
+        margin: 0 auto;
+        float: left;
+        color: white;
+        font-family: Lato-Bol;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 17px;
+        text-align: center;
+        border-radius: 5px;
+        border: 3px solid white; }
+
+#I_could {
+  height: 600px;
+  background-image: url("../img/I-could_background.jpg");
+  background-size: 100% 100%; }
+  #I_could .container {
+    padding-top: 130px; }
+    #I_could .container .photo {
+      height: 120px;
+      width: 120px;
+      border-radius: 50%;
+      border: 3px solid white;
+      margin: 0 auto; }
+      #I_could .container .photo img {
+        height: 120px;
+        width: 120px;
+        border-radius: 50%; }
+    #I_could .container p {
+      text-align: center;
+      width: 1050px;
+      height: 117px;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      font-size: 43px;
+      font-family: Lato-Lig;
+      font-weight: light;
+      font-style: italic;
+      color: white; }
+    #I_could .container .sliders {
+      height: 15px;
+      width: 100px;
+      position: relative;
+      margin: 0 auto; }
+      #I_could .container .sliders .slider {
+        height: 6px;
+        width: 7px;
+        border-radius: 50%;
+        border: 3px solid white;
+        float: left;
+        margin-right: 30px; }
+      #I_could .container .sliders :last-child {
+        margin-right: 0px; }
+      #I_could .container .sliders #first_slider {
+        background-color: white; }
+    #I_could .container #I_could_corner {
+      height: 40px;
+      width: 60px;
+      position: relative;
+      margin: 0 auto;
+      margin-top: 122px;
+      background-image: url("../img/I_could_tail.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      z-index: +1; }
+
+#try_demo {
+  height: 820px;
+  background-color: white; }
+  #try_demo .container {
+    padding-top: 100px; }
+    #try_demo .container .column {
+      float: left;
+      width: 520px;
+      height: 500px; }
+      #try_demo .container .column .text {
+        color: #9197a8;
+        margin-bottom: 80px; }
+        #try_demo .container .column .text h5 {
+          text-transform: uppercase;
+          font-family: Lato-Bol;
+          font-size: 15px;
+          font-weight: bold; }
+        #try_demo .container .column .text p {
+          font-family: Lato-Reg;
+          font-size: 16px; }
+    #try_demo .container .second {
+      float: right; }
+    #try_demo .container .center {
+      height: 430px;
+      width: 0px;
+      position: relative;
+      margin: 0 auto;
+      border: 1px solid #ecf0f3; }
+    #try_demo .container a {
+      text-decoration: none; }
+      #try_demo .container a .try_demo_button {
+        height: 47px;
+        width: 180px;
+        position: relative;
+        margin: 0 auto;
+        background-color: #f69679;
+        margin-top: 80px;
+        color: white;
+        font-family: Lato-Bol;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: 17px;
+        text-align: center;
+        border-radius: 5px; }
+
+#so_flat {
+  height: 750px;
+  background-color: #f6f6f4; }
+  #so_flat .container {
+    padding-top: 100px; }
+    #so_flat .container .big {
+      height: 500px;
+      width: 330px;
+      background-color: white;
+      float: left;
+      margin-right: 25px;
+      color: #9197a8;
+      border-bottom: 3px solid #eaeaea; }
+      #so_flat .container .big .colorful {
+        height: 340px; }
+      #so_flat .container .big .red {
+        background-color: #f69679; }
+      #so_flat .container .big .orange {
+        background-color: #e8b968; }
+      #so_flat .container .big h6 {
+        font-family: Lato-Bol;
+        font-size: 15px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 40px; }
+      #so_flat .container .big p {
+        font-family: Lato-LigIta;
+        font-size: 16px;
+        font-style: italic;
+        margin-left: 40px; }
+    #so_flat .container .so_flat_text {
+      margin-left: 45px;
+      color: #abbcc3;
+      width: 415px;
+      float: left; }
+      #so_flat .container .so_flat_text h5 {
+        font-family: Lato-Lig;
+        font-size: 45px;
+        font-weight: lighter;
+        margin-top: -14px;
+        margin-bottom: 25px; }
+      #so_flat .container .so_flat_text p {
+        font-family: Lato-Reg;
+        font-size: 16px; }
+    #so_flat .container .arrows {
+      font-family: Quicksand_Bold;
+      font-size: 35px;
+      color: #abbcc3;
+      font-weight: bold;
+      float: right;
+      height: 30px;
+      width: 40px;
+      margin-top: 290px; }
+      #so_flat .container .arrows a {
+        text-decoration: none;
+        color: #abbcc3; }
+        #so_flat .container .arrows a .left_arrow {
+          float: left;
+          margin-left: 5px; }
+      #so_flat .container .arrows a .right_arrow {
+        float: right;
+        margin-right: 5px; }
+
+footer {
+  background-color: #7accc8;
+  color: white; }
+  footer .container {
+    padding-top: 70px; }
+    footer .container div {
+      height: 200px; }
+      footer .container div .text_1 {
+        width: 380px;
+        float: left;
+        margin-right: 30px; }
+        footer .container div .text_1 p {
+          font-family: HelveticaNeue-CondencedObl;
+          font-size: 14px; }
+      footer .container div .text_2 {
+        width: 210px;
+        float: left; }
+        footer .container div .text_2 p {
+          font-family: HelveticaNeue-CondencedObl;
+          font-size: 14px; }
+      footer .container div nav {
+        width: 90px;
+        float: left;
+        margin-left: 435px;
+        margin-top: 10px; }
+        footer .container div nav a {
+          text-decoration: none;
+          color: white;
+          font-family: HelveticaNeue-CondencedObl;
+          font-size: 14px;
+          font-weight: bold; }
+          footer .container div nav a li {
+            list-style: none;
+            margin-bottom: 20px; }
+    footer .container .final_img {
+      margin: 0 auto;
+      width: 65px;
+      margin-top: 50px;
+      height: 70px;
+      margin-bottom: 70px;
+      background-image: url("../img/final_img.png");
+      background-repeat: no-repeat;
+      background-position: center center; }
+    footer .container .the_end {
+      margin: 0 auto; }
+      footer .container .the_end a {
+        text-decoration: none; }
+        footer .container .the_end a p {
+          text-align: center;
+          text-transform: uppercase;
+          font-family: Lato-Reg;
+          font-size: 12px;
+          color: white;
+          margin: 0 auto; }

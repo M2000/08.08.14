@@ -1,0 +1,347 @@
+/*
+*
+*@file _section.scss
+* Main scss file
+*
+*/
+header{
+  background-image: url("../img/header.jpg");
+  background-size: 100% 100%;
+  .container{
+    h1{
+      color: $text_color_white;
+      text-align: center;
+      margin-top: 0px;
+      padding-top: 180px;
+      margin-bottom: 30px;
+      font-family: $font_Lato_light;
+      font-size: $font_Lato_60;
+      font-weight: lihgt;
+    }
+    p{
+      color: $text_color_white;
+      text-align: center;
+      margin-top: 0px;
+      margin-bottom: 15px;
+      font-family: $font_Lato_ital;
+      font-style: italic;
+      font-size: $font_Lato_17;
+    }
+    .video_button{
+      @include size_block(80px, 80px);
+      border: 10px solid $text_color_white;
+      border-radius: 50%;
+      margin-top: 60px;
+    }
+    a {
+      text-decoration: none;
+      .get_started {
+        @include size_block(53px, 280px);
+        margin-top: 240px;
+        color: $text_color_white;
+        font-family: $font_Lato_bold;
+        font-size: $font_Lato_22;
+        font-weight: bold;
+        padding-top: 17px;
+        text-align: center;
+        border-radius: 5px;
+        background-color: $header_button_bg_color;
+      }
+    }
+  }
+}
+#see_the_sky{
+  height: 755px;
+  background-image: url("../img/see_the_sky.jpg");
+  background-size: 100% 100%;
+  .container{
+    .shell{
+      width: 660px;
+      margin-top: 0px;
+      padding-top: 90px;
+      h3{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        color: $text_color_white;
+        font-family: $font_Lato_light;
+        font-size: $font_Lato_55;
+        font-weight: lihgt;
+      }
+      p{
+        margin-top: 0px;
+        margin-bottom: 50px;
+        color: $text_color_white;
+        font-family: $font_Lato_reg;
+        font-size: $font_Lato_16;
+      }
+      :last-child{
+        margin-bottom: 40px;
+      }
+      a {
+        text-decoration: none;
+        .see_the_sky_button {
+          @include size_block(43px, 275px);
+          float: left;
+          color: $text_color_white;
+          font-family: $font_Lato_bold;
+          font-size: $font_Lato_18;
+          font-weight: bold;
+          padding-top: 17px;
+          text-align: center;
+          border-radius: 5px;
+          border: 3px solid $text_color_white;
+        }
+      }
+    }
+  }
+}
+#I_could{
+  height: 600px;
+  background-image: url("../img/I-could_background.jpg");
+  background-size: 100% 100%;
+  .container{
+    padding-top: 130px;
+    .photo{
+      @include circle(120px, 120px);
+      border: 3px solid $text_color_white;
+      margin: 0 auto;
+//      background-color: $text_color_white;
+////      background-image: url("../img/home_bl1_3.png");
+//      background-size: 100% 100%;
+      img{
+        @include circle(120px, 120px);
+      }
+    }
+    p{
+      text-align: center;
+      width: 1050px;
+      height: 117px;
+      margin: auto;
+      margin-top: 40px;
+      margin-bottom: 50px;
+      font-size: $font_Lato_43;
+      font-family: $font_Lato_light;
+      font-weight: light;
+      font-style: italic;
+      color: $text_color_white;
+    }
+    .sliders{
+      @include size_block(15px, 100px);
+      .slider{
+        @include circle(6px, 7px);
+        border: 3px solid $text_color_white;
+        float: left;
+        margin-right: 30px;
+      }
+      :last-child{margin-right: 0px;}
+      #first_slider{
+        background-color: $text_color_white;
+      }
+    }
+    #I_could_corner{
+      @include size_block(40px, 60px);
+      margin-top: 122px;
+      background-image: url("../img/I_could_tail.jpg");
+      background-repeat: no-repeat;
+      background-position: top center;
+      z-index: +1;
+    }
+  }
+}
+#try_demo{
+  height: 820px;
+  background-color: $text_color_white;
+ .container{
+   padding-top: 100px;
+   .column{
+     float: left;
+     width: 520px;
+     height: 500px;
+     .text{
+       color: $try_demo_color;
+       margin-bottom: 80px;
+       h5{
+        text-transform: uppercase;
+        font-family: $font_Lato_bold;
+         font-size: $font_Lato_15;
+         font-weight: bold;
+       }
+       p{
+        font-family: $font_Lato_reg;
+        font-size: $font_Lato_16;
+       }
+     }
+   }
+   .second{
+     float: right;
+   }
+   .center{
+     @include size_block(430px, 0px);
+     border: 1px solid $try_demo_center;
+   }
+   a {
+     text-decoration: none;
+     .try_demo_button {
+       @include size_block(47px, 180px);
+       background-color: $try_demo_button;
+       margin-top: 80px;
+       color: $text_color_white;
+       font-family: $font_Lato_bold;
+       font-size: $font_Lato_18;
+       font-weight: bold;
+       padding-top: 17px;
+       text-align: center;
+       border-radius: 5px;
+     }
+   }
+ }
+}
+#so_flat{
+  height: 750px;
+  background-color: $so_flat;
+  .container{
+    padding-top: 100px;
+    .big{
+      height: 500px;
+      width: 330px;
+      background-color: $text_color_white;
+      float: left;
+      margin-right: 25px;
+      color: $so_flat_big_color;
+      border-bottom: 3px solid $so_flat_big_border;
+      .colorful{
+        height: 340px;
+      }
+      .red{
+        background-color: $try_demo_button;
+      }
+      .orange{
+        background-color: $so_flat_color-div;
+      }
+      h6{
+        font-family: $font_Lato_bold;
+        font-size: $font_Lato_15;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+      }
+      p{
+        font-family: $font_Lato_ital;
+        font-size: $font_Lato_16;
+        font-style: italic;
+        margin-left: 40px;
+      }
+    }
+    .so_flat_text{
+      margin-left: 45px;
+      color: $so_flat_color;
+      width: 415px;
+      float: left;
+      h5{
+        font-family: $font_Lato_light;
+        font-size: $font_Lato_45;
+        font-weight: lighter;
+        margin-top: -14px;
+        margin-bottom: 25px;
+      }
+      p{
+        font-family: $font_Lato_reg;
+        font-size: $font_Lato_16;
+      }
+    }
+    .arrows{
+      font-family: $font_Qucksand_bold;
+      font-size: $font_size_35;
+      color: $so_flat_color;
+      font-weight: bold;
+      float: right;
+      height: 30px;
+      width: 40px;
+      margin-top: 290px;
+      a {
+        text-decoration: none;
+        color: $so_flat_color;
+        .left_arrow {
+          float: left;
+          margin-left: 5px;
+        }
+      }
+      a {
+        .right_arrow {
+          float: right;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}
+footer{
+  background-color: $footer_bg;
+  color: $text_color_white;
+  .container{
+    padding-top: 70px;
+    div {
+      height: 200px;
+      .text_1 {
+        width: 380px;
+        float: left;
+        margin-right: 30px;
+        p {
+          font-family: $font_Helvetica;
+          font-size: $font_Helvetica_14;
+        }
+      }
+      .text_2 {
+        width: 210px;
+        float: left;
+        p {
+          font-family: $font_Helvetica;
+          font-size: $font_Helvetica_14;
+        }
+      }
+      nav {
+        width: 90px;
+        float: left;
+        margin-left: 435px;
+        margin-top: 10px;
+        a {
+          text-decoration: none;
+          color: $text_color_white;
+          font-family: $font_Helvetica;
+          font-size: $font_Helvetica_14;
+          font-weight: bold;
+          li {
+            list-style: none;
+            margin-bottom: 20px;
+          }
+        }
+      }
+    }
+    .final_img{
+      margin: 0 auto;
+      width: 65px;
+      margin-top: 50px;
+      height: 70px;
+      margin-bottom: 70px;
+      background-image: url("../img/final_img.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .the_end{
+      margin: 0 auto;
+      a {
+        text-decoration: none;
+        p {
+          text-align: center;
+          text-transform: uppercase;
+          font-family: $font_Lato_reg;
+          font-size: $font_Lato_12;
+          color: $text_color_white;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+}

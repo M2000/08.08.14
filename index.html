@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <h1>Starnight App</h1>
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod</p>
+                <p>tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                <div class="video_button">
+                    <canvas id="my_canvas">
+
+                    </canvas>
+                    <script>
+                        var c=document.getElementById("my_canvas");
+                        var ctx= c.getContext("2d");
+                        ctx.beginPath();
+                        ctx.lineWidth=5;
+                        ctx.strokeStyle="white";
+                        ctx.lineJoin="round";
+                        ctx.moveTo(120, 50);
+                        ctx.lineTo(120, 100);
+                        ctx.lineTo(200, 75);
+                        ctx.closePath();
+                        ctx.stroke();
+                        ctx.fillStyle="white";
+                        ctx.fill();
+                    </script>
+                </div>
+                <a href="">
+                    <div class="get_started">
+                        Get Started
+                    </div>
+                </a>
+            </div>
+        </header>
+        <section id="see_the_sky">
+            <div class="container">
+                <div class="shell">
+                    <h3>See the sky even better than your own eyes can</h3>
+                    <p>Minim veniam dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                    <p>Auae ab illo dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.  Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </p>
+                    <a href="">
+                        <div class="see_the_sky_button">
+                            Download Now
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section id="I_could">
+            <div class="container">
+                <div class="photo">
+                    <img id="photo" src="img/home_bl1_2.png">
+                </div>
+                <p id="I_could_text">I could possibly use my own eyes to look at the stars, thanks Starnight App...</p>
+                <div class="sliders">
+                    <div class="slider" id="first_slider" onclick="myFirstFunction()"></div>
+                    <div class="slider" id="second_slider" onclick="mySecondFunction()"></div>
+                    <div class="slider" id="third_slider" onclick="myThirdFunction()"></div>
+                </div>
+                <div id="I_could_corner">
+
+                </div>
+            </div>
+        </section>
+        <section id="try_demo">
+            <div class="container">
+                <div class="column first">
+                    <div class="text">
+                        <h5>so dreamy</h5>
+                        <p>Minum veniam dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
+                    </div>
+                    <div class="text">
+                        <h5>apple store</h5>
+                        <p>Minum veniam dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
+                    </div>
+                </div>
+                <div class="column second">
+                    <div class="text">
+                        <h5>more buzz words</h5>
+                        <p>Minum veniam dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
+                    </div>
+                    <div class="text">
+                        <h5>extra startup juise</h5>
+                        <p>Minum veniam dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
+                    </div>
+                </div>
+                <div class="center"></div>
+                <a href="">
+                    <div class="try_demo_button">
+                        Try Demo
+                    </div>
+                </a>
+            </div>
+        </section>
+        <section id="so_flat">
+            <div class="container">
+                <div class="big">
+                    <div class="colorful red"></div>
+                    <h6>extra startup juice</h6>
+                    <p>Added feature</p>
+                </div>
+                <div class="big">
+                    <div class="colorful orange"></div>
+                    <h6>so thirsty</h6>
+                    <p>Extra nice UI comes with app</p>
+                </div>
+                <div class="so_flat_text">
+                    <h5>So flat you want to give it some shadows</h5>
+                    <p>Minum veniam, quis consectetuer adipiscing elit, sed diam nonummy.</p>
+                </div>
+                <div class="arrows">
+                    <a href="">
+                        <div class="left_arrow">
+                        &#8249
+                        </div>
+                    </a>
+                    <a href="">
+                        <div class="right_arrow">
+                        &#8250
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div>
+                    <div class="text_1">
+                        <p>Nam mi enim, auctorconsectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+                    </div>
+                    <div class="text_2">
+                        <p>aliquam dolor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</p>
+                    </div>
+                    <nav>
+                        <a href=""><li>List one</li></a>
+                        <a href=""><li>Page two</li></a>
+                        <a href=""><li>Design</li></a>
+                        <a href=""><li>Work</li></a>
+                        <a href=""><li>Contact me</li></a>
+                    </nav>
+                </div>
+                <div class="final_img">
+
+                </div>
+                <div class="the_end">
+                    <a href=""><p>design by www.blazrobar.com</p></a>
+                </div>
+            </div>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+</html>

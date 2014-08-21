@@ -1,0 +1,18 @@
+/*
+*
+*@file _mixin.scss
+* Mixins for properties
+*
+*/
+
+@mixin size_block($height, $width){
+  height: $height;
+  width: $width;
+  position: relative;
+  margin: 0 auto;
+}
+@mixin circle($height, $width){
+  height: $height;
+  width: $width;
+  border-radius: 50%;
+}
